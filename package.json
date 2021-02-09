@@ -4,7 +4,21 @@
   "main": "index.js",
   "author": "Tammy <tammyfaga@yahoo.com.br>",
   "license": "MIT",
+  "lint-staged": {
+    "*.js": [
+      "standard --fix",
+      "git add"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
   "devDependencies": {
+    "husky": "^5.0.9",
+    "lint-staged": "^10.5.4",
     "standard": "^16.0.3"
-  }
+  },
+  "dependencies": {}
 }
