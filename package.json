@@ -2,6 +2,12 @@
   "name": "clean-node-api",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "standard": {
+    "env": ["jest"]
+  },
   "author": "Tammy <tammyfaga@yahoo.com.br>",
   "license": "MIT",
   "devDependencies": {
