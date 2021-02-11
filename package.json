@@ -1,7 +1,7 @@
 {
   "name": "clean-node-api",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "login.js",
   "scripts": {
     "test": "jest --watchAll",
     "test:staged": "jest"
